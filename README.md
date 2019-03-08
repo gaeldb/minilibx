@@ -1,8 +1,6 @@
 Minilibx
 ========
 
-[![Build Status](https://travis-ci.org/dannywillems/minilibx.svg?branch=master)](https://travis-ci.org/dannywillems/minilibx)
-
 Ubuntu 18.04 compatible
 
 This is a mirror of the minilibx library, modified to be ISO C and POSIX compatible.
