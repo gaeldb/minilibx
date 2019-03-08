@@ -3,17 +3,19 @@ Minilibx
 
 [![Build Status](https://travis-ci.org/dannywillems/minilibx.svg?branch=master)](https://travis-ci.org/dannywillems/minilibx)
 
-This is a mirror of the minilibx library.
+Ubuntu 18.04 compatible
+
+This is a mirror of the minilibx library, modified to be ISO C and POSIX compatible.
 
 ## What is minilibx?
 
-Minilibx is a very basic graphical library writting in C used in
-[42](https://42.fr) (also exported in US in the Silicon Valley, see [42
-US](https://42.us.org)) and in [Epitech](http://www.epitech.eu/) for infography
-project such like *fdf* and *Raytracer*.
+Minilibx is a very basic graphical library writting in C created by Olivier Crouzet for [Epitech](http://www.epitech.eu/) for infography project such like *fdf* and *Raytracer*.
+Also used in [42](https://42.fr) (also exported in US in the Silicon Valley, see [42 US](https://42.us.org)).
 
-You can find a mirror to the native version for Mac OSX
-[here](https://github.com/dannywillems/minilix-mac-osx).
+## Ubuntu 18.04 requirements
+
+1. libx11-dev
+2. libxext-dev
 
 ## Compile
 
@@ -28,7 +30,6 @@ make && sudo make install
 
 Here some tutorials and articles (in French):
 * [Installation and basic usage](https://achedeuzot.me/2014/12/20/installer-la-minilibx/)
-* [Manual](http://thomas.tissotdupont.free.fr/MinilibX%20Manual/)
 
 ## Related projects
 
@@ -45,12 +46,14 @@ Ce dépot est un mirroir pour la librairie graphique *minilibx*.
 
 ## Qu'est-ce que minilibx ?
 
-Minilibx est une librairie graphique très basique écrite en C utilisée à
-[42](https://42.fr) (aussi exporté aux USA dans la Silicon Valley, voir [42
-US](https://42.us.org)) et à [Epitech](http://www.epitech.eu)
+Minilibx est une librairie graphique très basique écrite en C créée par Olivier Crouzet pour [Epitech](http://www.epitech.eu).
+Aussi utilisée à [42](https://42.fr) (aussi exporté aux USA dans la Silicon Valley, voir [42
+US](https://42.us.org)) 
 
-Vous pouvez trouver un mirroir pour la version native pour Mac OSX
-[ici](https://github.com/dannywillems/minilibx-mac-osx).
+## Pré-requis Ubuntu 18.04
+
+1. libx11-dev
+2. libxext-dev
 
 ## Compiler
 
@@ -66,7 +69,6 @@ make && sudo make install
 Ici des articles et des tutoriels (en français):
 
 * [Installation et utilisation basique](https://achedeuzot.me/2014/12/20/installer-la-minilibx/)
-* [Manuel](http://thomas.tissotdupont.free.fr/MinilibX%20Manual/)
 
 ## Projets connexes
 
