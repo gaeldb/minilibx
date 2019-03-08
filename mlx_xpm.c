@@ -5,7 +5,7 @@
 ** Login   <ol@epitech.net>
 ** 
 ** Started on  Tue Dec 11 15:25:27 2001 olivier crouzet
-** Last update Sat Oct  1 14:56:13 2005 Olivier Crouzet
+** Last update Fri Mar  8 15:16:13 2019 Gaël Barbier
 */
 
 
@@ -59,7 +59,12 @@ char	*mlx_int_static_line(char **xpm_data,int *pos,int size)
       len = len2;
     }
   /* strcpy(copy,str); */
-  strlcpy(copy, str, len2+1);
+  /* strlcpy(copy, str, len2+1);
+  /*
+  ** strlcpy is not standard, neither ISO C nor POSIX
+  ** using printf instead, following man 3 strlcpy of BSD
+  */
+  snprintf(copy, len2 + 1, "%s", str);
   return (copy);
 }
 
